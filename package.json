@@ -1,0 +1,27 @@
+{
+  "name": "testes-unitarios",
+  "version": "1.0.0",
+  "description": "Aprendendo sobre testes unitários.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ffavareto/testes-unitarios.git"
+  },
+  "keywords": [
+    "test",
+    "jest"
+  ],
+  "author": "Lucas Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ffavareto/testes-unitarios/issues"
+  },
+  "homepage": "https://github.com/ffavareto/testes-unitarios#readme",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
